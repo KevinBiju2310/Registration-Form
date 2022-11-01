@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+    
+    <H1><center><b>Student Information</b></center></H1> <br>
+    <form method="get">
+      <center>
+        <label>Name: </label> 
+          <input type="text" id="name" name="name"/> <br>  <br> 
+        <label for="address">Address:</label>
+          <textarea id="address" name="address"></textarea> <br> <br>
+        <label for="email">Email: </label>  
+          <input type="email" id="email" name="email"/> <br> <br>
+        <label for="gender">Gender: </label>  
+          <input type="radio" id="gender" name="gender" value="male" />Male  
+          <input type="radio" id="gender" name="gender" value="female"/>Female <br> <br>
+        <label for="dept">Department: </label>
+          <input list="dept" name="browser" id="browser">
+          <datalist id="dept">
+            <option value="CSE">
+            <option value="ECE">
+            <option value="IT">
+          </datalist> <br><br>
+        <label for="hobbies">Hobbies:</label>
+          <textarea id="hobbies" name="hobbies"></textarea> <br> <br>
+        <label for="aoi">Area of Interest : </label> 
+          <select name="aoi" id="aoi">
+            <option>Web developing</option>
+            <option selected>UI/UX Designing</option>
+            <option>Game Development</option>
+            <option>Machine Learning</option>
+            <option>Marketing</option>
+          </select> <br><br>
+        <input type="submit" value="Submit">
+        </center>
+    </form>
+
+</body>
+</html>
